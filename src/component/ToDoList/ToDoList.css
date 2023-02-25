@@ -1,0 +1,60 @@
+/*
+ * ToDoList component
+ */
+.to-do-list-component > .to-do-heading {
+  margin: 0;
+  font-size: 2em;
+}
+
+.to-do-list-component > .to-do-heading > img {
+  height: .9em;
+  margin: 0 -3px -3px -1px;
+}
+
+.to-do-list-component > .to-do-message, p {
+  margin: 12px 0 24px;
+  font-size: 1.1em;
+}
+
+.to-do-list-component > .to-do-input {
+  display: flex;
+  gap: 8px;
+}
+
+.to-do-list-component > .to-do-input > * {
+  height: 32px;
+  border: none;
+  border-radius: 2px;
+  font-size: .9em;
+  color: #282c34;
+  outline: none;
+}
+
+.to-do-list-component > .to-do-input > input {
+  margin: 0;
+  padding: 0 4px;
+  flex: 1;
+}
+
+.to-do-list-component > .to-do-input > .button-add {
+  background-color: #61DAFB;
+}
+
+.to-do-list-component > .to-do-input > .button-clear {
+  background-color: silver;
+}
+
+.to-do-list-component > ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.to-do-list-component > ul > li {
+  font-size: 1.1em;
+}
+
+.to-do-list-component > ul > li > label > input {
+  margin: 2px 4px 12px 0;
+  border-radius: 2px;
+  list-style-type: none;
+}
